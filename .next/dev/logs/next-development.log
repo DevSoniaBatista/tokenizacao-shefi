@@ -1,0 +1,77 @@
+{"timestamp":"00:00:00.803","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:02.393","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:06.065","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:52.102","source":"Server","level":"LOG","message":"✓ Compiled in 591ms"}
+{"timestamp":"00:05:13.332","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"00:05:24.023","source":"Server","level":"LOG","message":"✓ Compiled in 231ms"}
+{"timestamp":"00:10:13.581","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:10:55.478","source":"Server","level":"LOG","message":"✓ Compiled in 123ms"}
+{"timestamp":"00:11:07.254","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:11:07.717","source":"Server","level":"LOG","message":"✓ Compiled in 171ms"}
+{"timestamp":"00:13:01.428","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:13:20.712","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:13:30.647","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"00:14:04.828","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:14:08.735","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:14:17.680","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:15:34.977","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:15:44.422","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:15:56.311","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"00:16:12.664","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:16:24.401","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:16:36.596","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"00:16:36.857","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:16:42.676","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:19:30.463","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:19:41.334","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:21:10.352","source":"Server","level":"LOG","message":"✓ Compiled in 122ms"}
+{"timestamp":"00:21:38.242","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:21:39.583","source":"Server","level":"LOG","message":"✓ Compiled in 60ms"}
+{"timestamp":"00:21:42.942","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
+{"timestamp":"00:21:43.712","source":"Browser","level":"ERROR","message":"React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. classNa classna"}
+{"timestamp":"00:21:43.713","source":"Browser","level":"ERROR","message":"React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. classNa classna"}
+{"timestamp":"00:21:45.030","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:21:50.028","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:22:04.982","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:22:06.786","source":"Server","level":"ERROR","message":"[browser] \"React does not recognize the `classNa` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `classna` instead. If you accidentally passed it from a parent component, remove it from the DOM element.\" \"\""}
+{"timestamp":"00:22:06.788","source":"Browser","level":"ERROR","message":"React does not recognize the `classNa` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `classna` instead. If you accidentally passed it from a parent component, remove it from the DOM element. \"\""}
+{"timestamp":"00:22:24.919","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:22:27.120","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:22:32.071","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:29:02.299","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:29:30.247","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:30:32.219","source":"Server","level":"LOG","message":"✓ Compiled in 75ms"}
+{"timestamp":"00:30:57.253","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:31:44.102","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:31:56.027","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:32:34.800","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:32:48.757","source":"Server","level":"LOG","message":"✓ Compiled in 156ms"}
+{"timestamp":"00:33:35.701","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:34:12.638","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:34:13.424","source":"Server","level":"LOG","message":"✓ Compiled in 92ms"}
+{"timestamp":"00:34:32.044","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:34:36.896","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:35:03.793","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:35:10.331","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:35:20.976","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
+{"timestamp":"00:37:14.846","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:37:24.877","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:38:10.003","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:38:17.681","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:41:19.007","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
+{"timestamp":"00:42:50.927","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:42:57.512","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:43:04.221","source":"Server","level":"LOG","message":"✓ Compiled in 123ms"}
+{"timestamp":"00:43:10.978","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"00:43:17.761","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:43:24.617","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:43:31.000","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:43:37.653","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:43:44.302","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:43:51.179","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:43:57.468","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"00:44:05.009","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:44:16.465","source":"Server","level":"LOG","message":"✓ Compiled in 72ms"}
+{"timestamp":"00:45:56.059","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:46:35.379","source":"Server","level":"ERROR","message":"[browser] \"React does not recognize the `classNa` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `classna` instead. If you accidentally passed it from a parent component, remove it from the DOM element.\" \"\""}
+{"timestamp":"00:46:35.379","source":"Browser","level":"ERROR","message":"React does not recognize the `classNa` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `classna` instead. If you accidentally passed it from a parent component, remove it from the DOM element. \"\""}
