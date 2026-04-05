@@ -66,6 +66,12 @@ nav {
   padding: 80px 6vw 50px;
   position: relative; overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .slide {
+    padding: 60px 5vw 40px;
+  }
+}
 .slide-light { background: var(--cream); color: var(--navy); }
 .slide-dark  { background: var(--navy);  color: var(--white); }
 .slide-mid   { background: var(--dark);  color: var(--white); }
@@ -278,6 +284,20 @@ h1, h2, h3 { font-family: 'Syne', sans-serif; }
 .slide-light .timeline-year { background: var(--indigo); }
 
 /* ── STAT BIG ── */
+.future-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .future-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
 .big-stat {
   background: var(--dark);
   border: 1px solid var(--gold);

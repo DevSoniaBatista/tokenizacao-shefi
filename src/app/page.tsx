@@ -494,7 +494,7 @@ export default function Home() {
         <FadeUp><div className="slide-tag">11 · Futuro</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ marginBottom: '1.5rem' }}>O futuro que já está chegando</h2></FadeUp>
         <FadeUp delay={0.2}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '2rem', alignItems: 'start' }}>
+          <div className="future-grid">
             <div className="big-stat">
               <div className="big-stat-number">US$ 16</div>
               <div className="big-stat-label">trilhões</div>
