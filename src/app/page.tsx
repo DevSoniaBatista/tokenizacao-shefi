@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { QRCodeSVG } from 'qrcode.react';
 
-const TOTAL_SLIDES = 13;
+const TOTAL_SLIDES = 12;
 
 const FadeUp = ({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) => {
   const ref = useRef(null);
@@ -170,7 +170,7 @@ export default function Home() {
         <FadeUp delay={0.2}>
           <div className="agenda-grid">
             {[
-              { num: '01', label: 'O que é tokenização?', sub: 'A analogia da cédula de dinheiro' },
+              { num: '01', label: 'O que é tokenização?', sub: 'Tokens digitais' },
               { num: '02', label: 'Como funciona na prática?', sub: 'Blockchain e registro imutável' },
               { num: '03', label: 'O que pode ser tokenizado?', sub: 'Imóveis, obras, empresas e mais' },
               { num: '04', label: 'Por que isso importa?', sub: 'Democratização e liquidez' },
@@ -224,49 +224,14 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 4 — ANALOGIA CÉDULA */}
+      {/* SLIDE 4 — BLOCKCHAIN */}
       <section
-        className="slide slide-light"
+        className="slide slide-dark"
         id="slide-4"
         ref={(el) => { slideRefs.current[3] = el; }}
       >
-        <FadeUp><div className="slide-tag">04 · Analogia</div></FadeUp>
-        <FadeUp delay={0.1}><h2 className="headline" style={{ color: 'var(--navy)', marginBottom: '.6rem' }}>A analogia mais fácil</h2></FadeUp>
-        <FadeUp delay={0.2}>
-          <p className="subline" style={{ marginBottom: '1.5rem' }}>
-            Pense assim: um imóvel de R$ 1.000.000 pode ser <strong style={{ color: 'var(--indigo)' }}>"quebrado"</strong> em 1.000.000 tokens de R$ 1,00 cada.
-          </p>
-        </FadeUp>
-        <FadeUp delay={0.3}>
-          <div style={{ overflowX: 'auto' }}>
-            <table className="styled-table">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Cédula de R$ 100</th>
-                  <th>Token de R$ 1</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td>Representa</td><td>Valor emitido pelo Banco Central</td><td>Fração de um ativo real</td></tr>
-                <tr><td>Onde existe</td><td>Carteira física</td><td>Blockchain (registro digital)</td></tr>
-                <tr><td>Transferência</td><td>Presencial (troca física)</td><td>Instantânea, qualquer lugar do mundo</td></tr>
-                <tr><td>Divisível?</td><td>Não (menor = R$ 0,01 em moedas)</td><td>Sim — pode ser fracionado muito mais</td></tr>
-                <tr><td>Rastreável?</td><td>Parcialmente (nº de série)</td><td>100% — cada transação é registrada</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </FadeUp>
-      </section>
-
-      {/* SLIDE 5 — BLOCKCHAIN */}
-      <section
-        className="slide slide-dark"
-        id="slide-5"
-        ref={(el) => { slideRefs.current[4] = el; }}
-      >
         <div className="orb" style={{ width: 350, height: 350, background: 'var(--teal)', left: -100, bottom: -50, opacity: .12 }} />
-        <FadeUp><div className="slide-tag">05 · Blockchain</div></FadeUp>
+        <FadeUp><div className="slide-tag">04 · Blockchain</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ marginBottom: '.6rem' }}>O livro que ninguém pode apagar</h2></FadeUp>
         <FadeUp delay={0.2}>
           <p className="subline" style={{ marginBottom: '1.6rem' }}>
@@ -303,13 +268,13 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 6 — O QUE PODE SER TOKENIZADO */}
+      {/* SLIDE 5 — O QUE PODE SER TOKENIZADO */}
       <section
         className="slide slide-light"
-        id="slide-6"
-        ref={(el) => { slideRefs.current[5] = el; }}
+        id="slide-5"
+        ref={(el) => { slideRefs.current[4] = el; }}
       >
-        <FadeUp><div className="slide-tag">06 · Ativos</div></FadeUp>
+        <FadeUp><div className="slide-tag">05 · Ativos</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ color: 'var(--navy)', marginBottom: '1.5rem' }}>O que pode ser tokenizado?</h2></FadeUp>
         <FadeUp delay={0.2}>
           <div className="cards cards-6">
@@ -331,14 +296,14 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 7 — POR QUE ISSO MUDA TUDO */}
+      {/* SLIDE 6 — POR QUE ISSO MUDA TUDO */}
       <section
         className="slide slide-dark"
-        id="slide-7"
-        ref={(el) => { slideRefs.current[6] = el; }}
+        id="slide-6"
+        ref={(el) => { slideRefs.current[5] = el; }}
       >
         <div className="orb" style={{ width: 400, height: 400, background: 'var(--gold)', right: -120, top: -100, opacity: .08 }} />
-        <FadeUp><div className="slide-tag">07 · Impacto</div></FadeUp>
+        <FadeUp><div className="slide-tag">06 · Impacto</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ marginBottom: '.8rem' }}>Por que isso muda tudo?</h2></FadeUp>
         <FadeUp delay={0.2}>
           <div style={{ background: 'var(--gold)', borderRadius: 10, padding: '.9rem 1.4rem', color: 'var(--navy)', fontWeight: 600, fontSize: 'clamp(.9rem, 2vw, 1.05rem)', marginBottom: '1.6rem' }}>
@@ -371,13 +336,13 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 8 — EXEMPLO PRÁTICO */}
+      {/* SLIDE 7 — EXEMPLO PRÁTICO */}
       <section
         className="slide slide-light"
-        id="slide-8"
-        ref={(el) => { slideRefs.current[7] = el; }}
+        id="slide-7"
+        ref={(el) => { slideRefs.current[6] = el; }}
       >
-        <FadeUp><div className="slide-tag">08 · Exemplo Real</div></FadeUp>
+        <FadeUp><div className="slide-tag">07 · Exemplo Real</div></FadeUp>
         <FadeUp delay={0.1}>
           <h2 className="headline" style={{ color: 'var(--navy)', marginBottom: '.4rem' }}>Exemplo: Imóvel Tokenizado</h2>
           <p className="subline" style={{ marginBottom: '1.5rem' }}>Edifício comercial em São Paulo — avaliado em R$ 10.000.000</p>
@@ -402,13 +367,13 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 9 — RISCOS */}
+      {/* SLIDE 8 — RISCOS */}
       <section
         className="slide slide-dark"
-        id="slide-9"
-        ref={(el) => { slideRefs.current[8] = el; }}
+        id="slide-8"
+        ref={(el) => { slideRefs.current[7] = el; }}
       >
-        <FadeUp><div className="slide-tag">09 · Riscos & Proteção</div></FadeUp>
+        <FadeUp><div className="slide-tag">08 · Riscos & Proteção</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ marginBottom: '1.5rem' }}>Riscos e cuidados essenciais</h2></FadeUp>
         <FadeUp delay={0.2}>
           <div className="risk-grid">
@@ -451,13 +416,13 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 10 — BRASIL E REGULAÇÃO */}
+      {/* SLIDE 9 — BRASIL E REGULAÇÃO */}
       <section
         className="slide slide-light"
-        id="slide-10"
-        ref={(el) => { slideRefs.current[9] = el; }}
+        id="slide-9"
+        ref={(el) => { slideRefs.current[8] = el; }}
       >
-        <FadeUp><div className="slide-tag">10 · Brasil</div></FadeUp>
+        <FadeUp><div className="slide-tag">09 · Brasil</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ color: 'var(--navy)', marginBottom: '1.6rem' }}>O Brasil na vanguarda da tokenização</h2></FadeUp>
         <FadeUp delay={0.2}>
           <div className="timeline">
@@ -484,14 +449,14 @@ export default function Home() {
         </FadeUp> */}
       </section>
 
-      {/* SLIDE 11 — O FUTURO */}
+      {/* SLIDE 10 — O FUTURO */}
       <section
         className="slide slide-dark"
-        id="slide-11"
-        ref={(el) => { slideRefs.current[10] = el; }}
+        id="slide-10"
+        ref={(el) => { slideRefs.current[9] = el; }}
       >
         <div className="orb" style={{ width: 450, height: 450, background: 'var(--gold)', left: -150, top: -100, opacity: .06 }} />
-        <FadeUp><div className="slide-tag">11 · Futuro</div></FadeUp>
+        <FadeUp><div className="slide-tag">10 · Futuro</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ marginBottom: '1.5rem' }}>O futuro que já está chegando</h2></FadeUp>
         <FadeUp delay={0.2}>
           <div className="future-grid">
@@ -520,15 +485,15 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 12 — ENCERRAMENTO */}
+      {/* SLIDE 11 — ENCERRAMENTO */}
       <section
         className="slide slide-dark"
-        id="slide-12"
-        ref={(el) => { slideRefs.current[11] = el; }}
+        id="slide-11"
+        ref={(el) => { slideRefs.current[10] = el; }}
       >
         <div className="left-border" />
         <div className="orb" style={{ width: 400, height: 400, background: 'var(--violet)', right: -80, top: -80 }} />
-        <FadeUp><div className="slide-tag">12 · Resumo</div></FadeUp>
+        <FadeUp><div className="slide-tag">11 · Resumo</div></FadeUp>
         <FadeUp delay={0.1}><h2 className="headline" style={{ marginBottom: '1.5rem' }}>Resumindo em <span style={{ color: 'var(--gold)' }}>3 pontos</span></h2></FadeUp>
         <FadeUp delay={0.2}>
           <div className="summary-list">
@@ -546,18 +511,17 @@ export default function Home() {
         </FadeUp>
       </section>
 
-      {/* SLIDE 13 — CONTATOS FINAIS */}
+      {/* SLIDE 12 — CONTATOS FINAIS */}
       <section
         className="slide slide-dark"
-        id="slide-13"
-        ref={(el) => { slideRefs.current[12] = el; }}
-      >
+        id="slide-12"
+        ref={(el) => { slideRefs.current[11] = el; }}>
         <div className="left-border" />
         <div className="orb" style={{ width: 500, height: 500, background: 'var(--violet)', right: -150, top: -150 }} />
         <div className="orb" style={{ width: 300, height: 300, background: 'var(--sky)', left: -50, bottom: -50 }} />
 
         <FadeUp>
-          <div className="slide-tag">13 · Contato</div>
+          <div className="slide-tag">12 · Contato</div>
         </FadeUp>
         <FadeUp delay={0.1}>
           <h2 className="headline" style={{ marginBottom: '1rem' }}>Vamos construir o <span style={{ color: 'var(--gold)' }}>futuro</span> juntos?</h2>
