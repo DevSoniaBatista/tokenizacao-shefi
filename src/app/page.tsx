@@ -213,11 +213,11 @@ export default function Home() {
             <div className="card">
               <span className="card-icon">🔒</span>
               <div className="card-title">Registro Digital</div>
-              <div className="card-body">Toda transação fica gravada permanentemente numa blockchain — impossível de apagar.</div>
+              <div className="card-body">Toda transação fica gravada permanentemente numa blockchain.</div>
             </div>
             <div className="card">
-              <span className="card-icon">🔄</span>
-              <div className="card-title">Transferência</div>
+              <span className="card-icon">🌍</span>
+              <div className="card-title">Acessibilidade</div>
               <div className="card-body">Pode ser negociado globalmente, 24h por dia, sem precisar de intermediários.</div>
             </div>
           </div>
@@ -499,7 +499,7 @@ export default function Home() {
           <div className="summary-list">
             {[
               { num: 1, text: 'Tokenização transforma ativos reais em frações digitais, tornando o investimento acessível a todos.' },
-              { num: 2, text: 'A blockchain garante que o registro é seguro, permanente e transparente — ninguém pode fraudar.' },
+              { num: 2, text: 'Com a blockchain, o registro deixa de depender de confiança em uma instituição — ele passa a ser transparente, seguro e praticamente impossível de ser alterado.' },
               { num: 3, text: <span>O mercado está crescendo. <span className="gold">O futuro é agora.</span></span> },
             ].map((item, idx) => (
               <div key={idx} className="summary-item">
